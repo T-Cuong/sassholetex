@@ -1,0 +1,50 @@
+/*https://www.youtube.com/watch?v=u9IeAoj3UEo&list=PLqQ6Lvascx2s9AnpPOy0b-MSZFHUfvNml&index=8*/
+/*tinh nang 2 kha nang chia tach thanh cac module nho hon*/
+/*tinh nang 1 cua sass tao bien */
+header {
+  background-color: blue;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/*tinh nang 3 mixin giong nhu 1 function chung ta viet cac doan code css trong 1 mixin va su dung doan code nay o nhieu noi bang cach
+goi den tin cua mixin do*/
+section button {
+  background: blue;
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+  background-color: green;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*tinh nang 5 thua ke*/
+.button2, .button1 {
+  background: blue;
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+}
+
+/*tinh nang 4 cua scss: viet code long nhau*/
+footer { /*style cho the button va p nam tron footer*/ }
+footer button {
+  background: blue;
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+}
+footer p {
+  font-size: 20px;
+}
+
+/*khac nhau giau thua ke va mixin xem cuoi video 11:02*//*# sourceMappingURL=index.css.map */
